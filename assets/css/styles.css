@@ -1,0 +1,46 @@
+/* Header styles */
+header div {
+    height: 5vw;
+    background-color: blue;
+    border-bottom: .5vw solid black;
+    align-items: center;
+}
+
+header div h1 {
+    font-size: 2.5vw;
+    color: aliceblue;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: .5vw;
+    padding-left: 37vw;
+    font-style: italic;
+}
+
+#search {
+    padding-left: 4vw;
+}
+
+#search h2 {
+    font-weight: bold;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1.5vw;
+}
+
+#search input {
+    width: 80%;
+    padding: .5vw;
+    margin-bottom: 1vw;
+}
+
+#search button {
+    width: 80%;
+    border: 1px solid black;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 1vw;
+    font-weight: bold;
+    border-radius: .5vw;
+    margin-bottom: 2vw;
+}
+
