@@ -1,9 +1,12 @@
 /* Header styles. */
+
+header {
+    background-color: #2596be;
+    width:100%;
+}
 h1 {
     text-align: center;
-    background-image: url("/assets/images/altocumulus.jpg");
     color: white;
-    width:100%;
     padding:40px;
     font-style: italic;
   }
