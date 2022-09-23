@@ -1,11 +1,13 @@
+/* Header styles. */
 h1 {
     text-align: center;
-    background-color: lightblue;
-    color:teal;
+    background-image: url("/assets/images/altocumulus.jpg");
+    color: white;
     width:100%;
     padding:40px;
-    border: .2vw solid teal;
+    font-style: italic;
   }
+  /* Styles for the search element. */
   .input-group {
     margin-bottom: 15px;
   }
@@ -15,17 +17,22 @@ h1 {
     font-family: 'Mulish', sans-serif;
     text-align: center;
   }
+  .search-for-city {
+    font-size: 1vw;
+    font-weight: bold;
+  }
+  /* Styles for the forecast cards. */
   .card {
     width:100%;
   }
   .fiveDay{    
-    background-color: royalblue;
-    margin: 15px;
+    margin: 1vw;
   }
+  /* Card date styles. */
   h3 {
     float:left;
   }
-
+  /* Search button styles.*/ 
   .btn {
     width: 100%;
     border: 1px solid black;
@@ -36,10 +43,4 @@ h1 {
     border-radius: .5vw;
     margin-bottom: 1vw;
     height: 1.5vw;
-  }
-
-  .search-for-city {
-    font-size: 1vw;
-    font-weight: bold;
-
   }
